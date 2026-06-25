@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@RequestMapping("/")
 	public String home() {
-		return "축구 승 기원";
+		return "hello";
 	}
 }
